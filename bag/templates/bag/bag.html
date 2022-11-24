@@ -53,7 +53,7 @@
                                     </td>
                                     <td class="py-3">
                                         {% comment %} Need to fix this as it rounds up. {% endcomment %}
-                                        <p class="my-0">${% widthratio item.product.price 1 item.quantity %}</p>
+                                        <p class="my-0">${{ item.product.price }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
