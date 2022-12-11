@@ -9,7 +9,7 @@ class OrderForm(forms.ModelForm):
             'full_name',
             'email',
             'phone_number',
-            'stree_address1',
+            'street_address1',
             'street_address2',
             'town_or_city',
             'postcode',
